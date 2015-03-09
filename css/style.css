@@ -4,10 +4,28 @@ body{
   background-size: 1500px 900px;
 }
 
-.teams{
+.gk{
   position: absolute;
   margin-left: 80%;
-  margin-bottom: 2000px;
+  margin-bottom: 80%;
+}
+
+.def{
+  position: absolute;
+  margin-left: 80%;
+  margin-bottom: 60%;
+}
+
+.mid{
+  position: absolute;
+  margin-left: 80%;
+  margin-bottom: 40%;
+}
+
+.fwd{
+  position: absolute;
+  margin-left: 80%;
+  margin-bottom: 20%;
 }
 
 select {

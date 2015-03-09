@@ -71,7 +71,7 @@ goalkeeperArray = []
     var player = $('option:selected', $(this)).val();
     if(goalkeeperArray.indexOf(player) === -1 && goalkeeperArray.length < 2){
     goalkeeperArray.push(player);
-  $('.gk').append('GK: ' + goalkeeperArray[goalkeeperArray.length-1] + '£' + player_cost + '<br />');
+  $('.gk').append('GK: ' + goalkeeperArray[goalkeeperArray.length-1] + '<br />');
   }
   else {
     return false
