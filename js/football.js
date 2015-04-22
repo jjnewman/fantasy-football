@@ -20,7 +20,6 @@ function populateTeam(selectorClass, positionArray, positionClass, positionCode,
     if(positionArray.indexOf(player_name) === -1 && positionArray.length < positionMax){ 
       positionArray.push(player_name);
       total_cost = total_cost + parseInt(player_cost)
-      // funds_available = 1500 - total_cost
       if(total_cost < 1000){     
 
       $(positionClass).append('<div id=' + player_name + '>' + positionCode + player_name + ' £' + player_cost/10 + 'm' + '</div>' );
@@ -40,8 +39,6 @@ function populateTeam(selectorClass, positionArray, positionClass, positionCode,
 };
 
 goalkeeperArray = []; defenderArray = []; midfielderArray = []; forwardArray = []
-
-
 
 populateTeam('.goalkeepers', goalkeeperArray, '.gk', 'GK: ', 2)
 populateTeam('.defenders', defenderArray, '.def', 'DEF: ', 5)
